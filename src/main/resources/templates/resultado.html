@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="style.css">
+        <title>Resultado IMC</title>
+    </head>
+    <body>
+        <main>
+            <h1>Resultado do IMC</h1>
+            <div>
+                <p>Nome: <span th:text="${nome}"></span></p><br>
+                <p>Peso: <span th:text="${peso}"></span> kg</p><br>
+                <p>Altura: <span th:text="${altura}"></span> m</p><br>
+                <p>IMC: <span th:text="${imc}"></span></p><br>
+                <p>Classificação: <span th:text="${classificacao}"></span></p><br>
+                <p>Mensagem positiva: <span th:text="${mensagemPositiva}"></span></p><br>
+            </div>
+        </main>
+    </body>
+</html>

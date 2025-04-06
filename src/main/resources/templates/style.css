@@ -1,0 +1,57 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 1em;
+    background: wheat;
+}
+
+
+
+main {
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+    //box-shadow: 0 0 13px rgba(0, 0, 0, 0.5);
+    padding: 1.5em;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+}
+div{
+    text-align: left;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+
+label {
+    font-weight: bold;
+}
+
+button, input {
+    border: none;
+    border-radius: 3px;
+    padding: .5em 0;
+
+}
+
+button {
+    cursor: pointer;
+    background: orangered;
+    width: 100%;
+    color: white;
+
+}
+
+p{
+    font-weight: bold;
+}
